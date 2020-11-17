@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CONTACT</title>
+</head>
+<script src="https://kiyt.fontawesome.com/cd8d9bf162.js" crossrigin="anonymous"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Courier;
+  margin: 0;
+
+}
+body{
+    background-image: url(pen.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+/* Header/logo Title */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: lightblue;
+  color: black;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightblue;
+}
+
+body {
+font-family: Courier ;
+}
+
+.overlay{
+height: 100%;
+width: 0;
+position: fixed;
+2-index: 1;
+top: 0;
+left: 0;
+background-color: gb(0,0,0);
+ background-color: rgba(0,0,0, 0.9);
+overflow-x: hidden;
+transition:0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: pink;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: pink;
+}
+
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+    }
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color:none;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .sidenav{   
+    flex-direction: column;
+  }
+.fa-facebook {
+  background: #3B5998;
+  color: white
+}
+.fa-whatsapp {
+  background: #55ee5d;
+  color:white
+}
+.fa-github {
+  background: #364753;
+  color:white
+}
+.fa-linkedin {
+background: #55acee;
+color: white;
+}
+</style>
+
+
+
+
+
+
+<!-- Header -->
+<div class="header">
+  <h1>Mabotle's Website</h1>
+  <p>With a <b>flexible</b> layout.</p>
+</div>
+
+<!-- sidenav  -->
+<div id="myNav" class="overlay">
+<a href="javascript:void(0)"
+ class="closebtn"
+ onclick="closeNav()">&times;</a>
+ <div class="overlay-content">
+<a href="home page.html">HOME</a>
+  <a href="about.html">ABOUT</a>
+  <a href="projects.html">PROJECT</a>
+  <a href="contact page.html">CONTACT</a>
+  <a href="The Blog.html">BLOG</a>
+</div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<br>
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+</body>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+  
+  
+    
+  
+    
+    
+    
+    
+    </section>
+    
+    <footer>
+    <center></center>
+    <section id="Contact">
+    <title>Contact</title>
+    <h1 style="font-family:courier">CONTACT</h1>
+    <ul>
+    <li>
+    <p>
+    FACEBOOK:<a href="https://wwww.facebook.com/bontle.buhle.505" class="fa fa-facebook">Facebook</a>
+    <br>
+    </p>
+  </li>
+  </ul>
+  <ul>	
+    <li>
+    <p>
+    Whatsapp:<a href="https://wa.me/27789580679?text=I'm%20interested%20in%20your%20portifolio"</p>
+    <button style="font-size:24px"><i class="fa fa-whatsapp"></i></button></a>
+    </ul>
+    <ul
+   <li>
+    <p>
+      <a href="https://github.com/"class="fa fa-github">Github</a>
+    </p>
+    </li>
+    </ul>
+    <a href="https://wwww.fa-linkedin.com/in/mabotlepienaar-8792541b7/" class="fa fa-linkedin"> Linkedin</a>
+
+    Email:<a href="https://mail.google.com/mail/u/0/3#inbox?compose=new">mabotlebuhle100@gmail.com</a> 
+</li></ul></section></footer></div>
+
+</center>
+
+
+
+<!-- Footer -->
+<div class="footer">
+<p>©2020-Mabotle-All rights reserved</p>
+
+</div>
+
+
+</div>
+</body>
+</html>
